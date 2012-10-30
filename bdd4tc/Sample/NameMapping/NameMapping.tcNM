@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" Version="9.0" NameMappingVersion="4" Cookie="69">
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Properties />
+		<Children>
+			<Child0 Name="Sys" Key="{E67765DF-E566-4A24-A8FF-AB377FCA232A}">
+				<Properties>
+					<Property0 Name="Name" Cookie="46" />
+					<Property1 Name="Id" Cookie="47" />
+				</Properties>
+				<Children>
+					<Child0 Name="Orders_Delphi" Key="{75A7E8E4-29A1-4C79-9303-EB30F9A4DF27}">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="56" />
+						</Properties>
+						<Children>
+							<Child0 Name="OrderFrm" Key="{ADA992F7-07B8-405D-943C-64E9155F3AF7}">
+								<Properties>
+									<Property0 Name="ClassName" Cookie="59" />
+									<Property1 Name="NativeDelphiObject.Name" Cookie="60" />
+								</Properties>
+								<Children>
+									<Child0 Name="Date_Edit" Key="{327B3EE4-49D7-470D-B648-80745902E9C6}">
+										<Properties>
+											<Property0 Name="ClassName" Cookie="63" />
+											<Property1 Name="NativeDelphiObject.Name" Cookie="64" />
+										</Properties>
+										<Children />
+									</Child0>
+									<Child1 Name="Product_ComboBox" Key="{10D42892-6C42-4966-BCBE-32823F34B606}">
+										<Properties>
+											<Property0 Name="ClassName" Cookie="65" />
+											<Property1 Name="NativeDelphiObject.Name" Cookie="66" />
+										</Properties>
+										<Children />
+									</Child1>
+									<Child2 Name="Qty_Edit" Key="{F0E46EDD-A40E-47AD-ACAA-B36467258E38}">
+										<Properties>
+											<Property0 Name="ClassName" Cookie="61" />
+											<Property1 Name="NativeDelphiObject.Name" Cookie="62" />
+										</Properties>
+										<Children />
+									</Child2>
+									<Child3 Name="OKButton" Key="{15240394-ED88-4270-AF09-96F525AC9DD5}">
+										<Properties>
+											<Property0 Name="ClassName" Cookie="67" />
+											<Property1 Name="NativeDelphiObject.Name" Cookie="68" />
+										</Properties>
+										<Children />
+									</Child3>
+								</Children>
+							</Child0>
+							<Child1 Name="MainForm" Key="{09AC0D31-9B64-4F65-9A7F-AFF5C5D2EF3A}">
+								<Properties>
+									<Property0 Name="ClassName" Cookie="57" />
+									<Property1 Name="NativeDelphiObject.Name" Cookie="58" />
+								</Properties>
+								<Children />
+							</Child1>
+						</Children>
+					</Child0>
+					<Child1 Name="mspaint" Key="{4DD227FB-C372-486E-A532-D52EAAE2F661}">
+						<Properties>
+							<Property0 Name="ProcessName" Cookie="48" />
+							<Property1 Name="Index" Cookie="49" />
+						</Properties>
+						<Children>
+							<Child0 Name="Untitled_Paint" Key="{7A34B785-A8D9-4F1B-8EDB-FB6B6830F70C}">
+								<Properties>
+									<Property0 Name="FrameworkId" Cookie="50" />
+									<Property1 Name="ClassName" Cookie="51" />
+									<Property2 Name="LocalizedControlType" Cookie="52" />
+									<Property3 Name="ObjectIdentifier" Cookie="53" />
+								</Properties>
+								<Children>
+									<Child0 Name="AfxFrameOrView42u" Key="{18F0B8B7-A81F-4D77-B0B7-09BBC0C95469}">
+										<Properties>
+											<Property0 Name="WndClass" Cookie="54" />
+										</Properties>
+										<Children>
+											<Child0 Name="Afx" Key="{3691910E-3D27-4C0F-AECC-92455BA16C75}">
+												<Properties>
+													<Property0 Name="WndClass" Cookie="55" />
+												</Properties>
+												<Children />
+											</Child0>
+										</Children>
+									</Child0>
+								</Children>
+							</Child0>
+						</Children>
+					</Child1>
+				</Children>
+			</Child0>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child0 Name="Orders_Delphi" Owner="{75A7E8E4-29A1-4C79-9303-EB30F9A4DF27}">
+			<Child0 Name="OrderFrm" Owner="{ADA992F7-07B8-405D-943C-64E9155F3AF7}">
+				<Child0 Name="Product_ComboBox" Owner="{10D42892-6C42-4966-BCBE-32823F34B606}" />
+				<Child1 Name="Qty_Edit" Owner="{F0E46EDD-A40E-47AD-ACAA-B36467258E38}" />
+				<Child2 Name="OKButton" Owner="{15240394-ED88-4270-AF09-96F525AC9DD5}" />
+				<Child3 Name="Date_Edit" Owner="{327B3EE4-49D7-470D-B648-80745902E9C6}" />
+			</Child0>
+			<Child1 Name="MainForm" Owner="{09AC0D31-9B64-4F65-9A7F-AFF5C5D2EF3A}" />
+		</Child0>
+		<Child1 Name="mspaint" Owner="{4DD227FB-C372-486E-A532-D52EAAE2F661}">
+			<Child0 Name="Untitled_Paint" Owner="{7A34B785-A8D9-4F1B-8EDB-FB6B6830F70C}">
+				<Child0 Name="AfxFrameOrView42u" Owner="{18F0B8B7-A81F-4D77-B0B7-09BBC0C95469}">
+					<Child0 Name="Afx" Owner="{3691910E-3D27-4C0F-AECC-92455BA16C75}" />
+				</Child0>
+			</Child0>
+		</Child1>
+	</LogicalNodes>
+	<Storages Current="0">
+		<Child0 Name="Default&#32;Configuration">
+			<Property0 Cookie="13" PropertyType="0" Type="5" Value="Sys" />
+			<Property1 Cookie="14" PropertyType="0" Type="0" Value="-1" />
+			<Property2 Cookie="15" PropertyType="0" Type="5" Value="iexplore" />
+			<Property3 Cookie="16" PropertyType="0" Type="5" Value="Page" />
+			<Property4 Cookie="17" PropertyType="0" Type="5" Value="http://200.153.182.9:8586/ConsincoWeb/login.aspx*" />
+			<Property5 Cookie="18" PropertyType="0" Type="5" Value="Panel" />
+			<Property6 Cookie="19" PropertyType="0" Type="5" Value="silverlightControlHost" />
+			<Property7 Cookie="20" PropertyType="0" Type="5" Value="silverlightControlHost" />
+			<Property8 Cookie="21" PropertyType="0" Type="5" Value="Object" />
+			<Property9 Cookie="22" PropertyType="0" Type="0" Value="0" />
+			<Property10 Cookie="23" PropertyType="0" Type="5" Value="Explorer" />
+			<Property11 Cookie="24" PropertyType="0" Type="5" Value="Progman" />
+			<Property12 Cookie="25" PropertyType="0" Type="5" Value="Program&#32;Manager" />
+			<Property13 Cookie="26" PropertyType="0" Type="5" Value="SHELLDLL_DefView" />
+			<Property14 Cookie="27" PropertyType="0" Type="5" Value="SysListView32" />
+			<Property15 Cookie="28" PropertyType="0" Type="5" Value="FolderView" />
+			<Property16 Cookie="29" PropertyType="0" Type="5" Value="OUTLOOK" />
+			<Property17 Cookie="30" PropertyType="0" Type="5" Value="rctrl_renwnd32" />
+			<Property18 Cookie="31" PropertyType="0" Type="5" Value="RES:&#32;testcomplete&#32;-&#32;Mensagem&#32;(HTML)&#32;" />
+			<Property19 Cookie="32" PropertyType="0" Type="5" Value="Panel" />
+			<Property20 Cookie="33" PropertyType="0" Type="5" Value="MsoDockTop" />
+			<Property21 Cookie="34" PropertyType="0" Type="5" Value="ToolBar" />
+			<Property22 Cookie="35" PropertyType="0" Type="5" Value="Ribbon" />
+			<Property23 Cookie="36" PropertyType="0" Type="5" Value="MsoWorkPane" />
+			<Property24 Cookie="37" PropertyType="0" Type="5" Value="Ribbon" />
+			<Property25 Cookie="38" PropertyType="0" Type="5" Value="NUIPane" />
+			<Property26 Cookie="39" PropertyType="0" Type="5" Value="NetUIHWND" />
+			<Property27 Cookie="40" PropertyType="0" Type="5" Value="Shell_TrayWnd" />
+			<Property28 Cookie="41" PropertyType="0" Type="5" Value="ReBarWindow32" />
+			<Property29 Cookie="42" PropertyType="0" Type="5" Value="MSTaskSwWClass" />
+			<Property30 Cookie="43" PropertyType="0" Type="5" Value="Aplicativos&#32;em&#32;execução" />
+			<Property31 Cookie="44" PropertyType="0" Type="5" Value="ToolbarWindow32" />
+			<Property32 Cookie="45" PropertyType="0" Type="5" Value="Aplicativos&#32;em&#32;execução" />
+			<Property33 Cookie="46" PropertyType="0" Type="5" Value="Sys" />
+			<Property34 Cookie="47" PropertyType="0" Type="0" Value="-1" />
+			<Property35 Cookie="48" PropertyType="0" Type="5" Value="mspaint" />
+			<Property36 Cookie="49" PropertyType="0" Type="0" Value="2" />
+			<Property37 Cookie="50" PropertyType="0" Type="5" Value="Win32" />
+			<Property38 Cookie="51" PropertyType="0" Type="5" Value="MSPaintApp" />
+			<Property39 Cookie="52" PropertyType="0" Type="5" Value="window" />
+			<Property40 Cookie="53" PropertyType="0" Type="5" Value="Untitled_Paint" />
+			<Property41 Cookie="54" PropertyType="0" Type="5" Value="AfxFrameOrView42u" />
+			<Property42 Cookie="55" PropertyType="0" Type="5" Value="Afx:dc0000:8" />
+			<Property43 Cookie="56" PropertyType="0" Type="5" Value="Orders_Delphi" />
+			<Property44 Cookie="57" PropertyType="0" Type="5" Value="TMainForm" />
+			<Property45 Cookie="58" PropertyType="0" Type="5" Value="MainForm" />
+			<Property46 Cookie="59" PropertyType="0" Type="5" Value="TOrderFrm" />
+			<Property47 Cookie="60" PropertyType="0" Type="5" Value="OrderFrm" />
+			<Property48 Cookie="61" PropertyType="0" Type="5" Value="TEdit" />
+			<Property49 Cookie="62" PropertyType="0" Type="5" Value="Qty_Edit" />
+			<Property50 Cookie="63" PropertyType="0" Type="5" Value="TMaskEdit" />
+			<Property51 Cookie="64" PropertyType="0" Type="5" Value="Date_Edit" />
+			<Property52 Cookie="65" PropertyType="0" Type="5" Value="TComboBox" />
+			<Property53 Cookie="66" PropertyType="0" Type="5" Value="Product_ComboBox" />
+			<Property54 Cookie="67" PropertyType="0" Type="5" Value="TButton" />
+			<Property55 Cookie="68" PropertyType="0" Type="5" Value="OKButton" />
+		</Child0>
+	</Storages>
+	<TypeInfo>
+		<UserDefinedTypes />
+	</TypeInfo>
+</Root>
