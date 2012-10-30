@@ -1,0 +1,13 @@
+Cenário: Simular financiamento de imóvel residencial
+Dado que
+ O imóvel é do tipo residencial
+Quando
+ O valor do imóvel é igual "100.000,00"
+ O valor da entrada é igual a "20.000,00"
+ O prazo de financiamento é igual a "12" meses
+ A data de nascimento é igual a "18/12/1977"
+ A renda líquida mensal é igual a "7.000,00"
+ A simulação é executada
+Então
+  O valor da primeira parcela deve ser "7.319,74"
+  O valor da última parcela deve ser "6.752,30"
