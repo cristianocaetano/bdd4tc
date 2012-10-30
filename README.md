@@ -46,12 +46,12 @@ The scenario file is a plain text file with the .txt extension. It follows the g
 How it works
 -----------
 
-1) On TestComplete run BDD4TC.RunFromFile(filepath) or RunFromFolder(foldername) method.
-2) The BDD4TC library parses the file name, removes the special characters and substitutes the whitespaces to underscores. Example ("Simular financiamento de imóvel residencial.txt" is parsed to "simular_financiamento_de_imovel_residencial.txt".
-3) The BDD4TC library look for a unit named "simular_financiamento_de_imovel_residencial". The unit name must be the file named parsed without the extension.
-4) The BDD4TC library parses the lines inside the text file. For each line, it looks for a method implementantion under the unit. This method implementation is the fixture that runs the step definition.
-5) The unit must have a method name equal the text line (parsed). For example: the text line says "A renda líquida mensal é igual a "7.000,00" then BDD4TC looks for a method named "sub a_renda_liquida_mensal_e_igual_a_x(p)". The parameter "7.000,00" is changed to x. All parameters are changed to x. Another example: the text line says "A simulação é executada" then BDD4TC looks for a method named "sub a_simulacao_e_executada(p)".
-6) All methods implementations must have a parameter (p). It contains the original text line. So inside the methods you can freely parses (via regex) the information you need.
+*  On TestComplete run BDD4TC.RunFromFile(filepath) or RunFromFolder(foldername) method.
+*  The BDD4TC library parses the file name, removes the special characters and substitutes the whitespaces to underscores. Example ("Simular financiamento de imóvel residencial.txt" is parsed to "simular_financiamento_de_imovel_residencial.txt".
+*  The BDD4TC library look for a unit named "simular_financiamento_de_imovel_residencial". The unit name must be the file named parsed without the extension.
+*  The BDD4TC library parses the lines inside the text file. For each line, it looks for a method implementantion under the unit. This method implementation is the fixture that runs the step definition.
+*  The unit must have a method name equal the text line (parsed). For example: the text line says "A renda líquida mensal é igual a "7.000,00" then BDD4TC looks for a method named "sub a_renda_liquida_mensal_e_igual_a_x(p)". The parameter "7.000,00" is changed to x. All parameters are changed to x. Another example: the text line says "A simulação é executada" then BDD4TC looks for a method named "sub a_simulacao_e_executada(p)".
+*  All methods implementations must have a parameter (p). It contains the original text line. So inside the methods you can freely parses (via regex) the information you need.
 
 
 More Information
